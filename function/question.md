@@ -13,19 +13,26 @@ return: x+y+87
 ## Question 02
 請定義一個 function，轉置多層list (類似轉置矩陣)
 
-換句話說，轉置 `2 x n` 的 `list`，變成 `n x 2` 的 `list`
+換句話說，轉置 `2 x 3` 的 `list`，變成 `3 x 2` 的 `list`
 
 hint: `double for-loop`
 ```
 function name: transpose_list
 
-input: list[list[int,int...], list[int,int...]]
+input: list[list[int,int,int], list[int,int,int]]
   
 output:
 ------
-List length before transpose: 2 x {$n}
-List length after transpose: {$n} x 2
+List size before transposed: 2 x 3
+result:
+1,2,3,
+4,5,6,
+List size after transposed: 3 x 2
+result:
+1,4,
+2,5,
+3,6,
 ------
 
-return: list
+return: list[list[int,int], list[int,int], list[int,int]]
 ```

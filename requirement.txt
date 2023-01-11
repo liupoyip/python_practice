@@ -1,5 +1,2 @@
 autopep8
 numpy
-opencv-python
-scipy
-pandas
