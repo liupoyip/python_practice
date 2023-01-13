@@ -36,3 +36,39 @@ result:
 
 return: list[list[int,int], list[int,int], list[int,int]]
 ```
+
+## Question 03
+請定義一個 function
+
+功能: 輸出以下格式
+
+hint: ASCII
+```
+input 1: 65
+
+output 1:
+------
+A
+BC
+DEF
+GHIJK
+LMNOPQ
+RSTUVWX
+YZ
+------
+
+input 2: 97
+
+output 2:
+------
+a
+bc
+def
+ghijk
+lmnopq
+rstuvwx
+yz
+------
+
+
+```
