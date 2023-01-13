@@ -57,3 +57,9 @@ hint: ACSII
 | PQRSTU   | pqrstu   |
 | VWXYZ    | vwxyz    |
 ```
+
+## Question 04
+請找到 `question_04` 資料夾，將 `run.py` 改成可以執行的程式
+
+## Question 05
+請找到 `question_05` 資料夾，將 `run.py` 改成可以執行的程式
