@@ -59,7 +59,7 @@ hint: ACSII
 ```
 
 ## Question 04
-請找到 `question_04` 資料夾，將 `run.py` 改成可以執行的程式
+請下載 `question_04` 資料夾的內容，修改 `run.py`，使 `run.py` 執行後不會出現error (不是改 `myModule.py`)
 
 ## Question 05
-請找到 `question_05` 資料夾，將 `run.py` 改成可以執行的程式
+請下載 `question_05` 資料夾的內容，修改 `run.py`，使 `run.py` 執行後不會出現error (不是改 `myModule.py`)
