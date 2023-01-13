@@ -42,31 +42,18 @@ return: list[list[int,int], list[int,int], list[int,int]]
 
 功能: 輸出以下格式
 
-hint: ASCII
+hint: ACSII
+
+限制: 需要有for-loop / while loop
 ```
-input 1: 65
-
-output 1:
-------
-A
-BC
-DEF
-GHIJK
-LMNOPQ
-RSTUVWX
-YZ
-------
-
-input 2: 97
-
-output 2:
-------
-a
-bc
-def
-ghijk
-lmnopq
-rstuvwx
-yz
-------
+| input:65 | input:97 |
+| -------- | -------- |
+| output 1 | output 2 |
+| A        | a        |
+| BC       | bc       |
+| DEF      | def      |
+| GHIJ     | ghij     |
+| KLMNO    | klmno    |
+| PQRSTU   | pqrstu   |
+| VWXYZ    | vwxyz    |
 ```
