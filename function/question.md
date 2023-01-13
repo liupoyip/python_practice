@@ -69,6 +69,4 @@ lmnopq
 rstuvwx
 yz
 ------
-
-
 ```
