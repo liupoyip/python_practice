@@ -63,3 +63,19 @@ hint: ACSII
 
 ## Question 05
 請下載 `question_05` 資料夾的內容，修改 `run.py`，使 `run.py` 執行後不會出現error (不是改 `myModule.py`)
+
+## Question 06
+請寫三個腳本(`.py`)，放在同一個資料夾，檔名與功能分別為:
+1. `main.py`
+    - 執行`module_1`內的`show_hello`
+    - 執行`module_2`內的`show_now_time`
+2. `module_1.py`
+    - function: `show_hello`
+      - output:
+
+            hello
+3. `module_2.py`
+    - function: `show_now_time`
+      - output: 
+            
+            now time is {$nowtime}
