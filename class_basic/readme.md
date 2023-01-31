@@ -42,7 +42,7 @@
 
             This drink is bad to bartending!
 
-## Example 01: Inherent
+## Example 01: Inherent (繼承)
 請定義三個 class，分別為
 - `PeriodicTable`
 - `ElementFreeElectronic1`
