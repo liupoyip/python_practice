@@ -25,4 +25,11 @@
 
           開車不喝酒，酒後開車進監獄
   - show_if_good_to_bartending:
-    - 
+    - if bartending == True
+      - output:
+
+            This drink is good to bartending!
+    - if bartending == false
+      - output:
+
+            This drink is bad to bartending!
