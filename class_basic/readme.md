@@ -11,7 +11,15 @@
   - bartending: bool
 
 - functions
-  - show_status
+  - initial input:
+
+        drink_name
+        concentration
+        kcal
+        ingredients
+        bartending
+
+  - `show_status`
     - output:
   
           Drink name: {$drink_name}
@@ -42,3 +50,13 @@
 
 `ElementFreeElectronic1` 與 `ElementFreeElectronic8` 繼承自 `PeriodicTable`。
 `ElementFreeElectronic1` 與 `ElementFreeElectronic8` 可使用同樣的function，但輸出的參數不一樣。
+
+- basic propertis: 請參照元素週期表，設定初始值
+  - `free_electronic: int`
+  - `element_list: list[str,str...]`
+- function:
+  - `show_status`:
+    - output:
+
+          Free electronic: {$free_electronic}
+          element: {$element_list}
