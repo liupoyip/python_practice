@@ -24,7 +24,7 @@
   
           Drink name: {$drink_name}
           Concentration: {$concentration}
-          Kcal: {$kcal}
+          kcal: {$kcal}
           Ingredients: {$ingredients}
           Bartending: {$bartending}
   
