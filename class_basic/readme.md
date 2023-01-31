@@ -29,7 +29,7 @@
       - output:
 
             This drink is good to bartending!
-    - if bartending == false
+    - if bartending == False
       - output:
 
             This drink is bad to bartending!
