@@ -58,5 +58,5 @@
   - `show_status`:
     - output:
 
-          Free electronic: {$free_electronic}
+          Family num: {$family_num}
           element: {$element_list}
