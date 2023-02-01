@@ -1,41 +1,23 @@
-# %%
-class AnimalFourFeetsMammal:
-    head = None
-    body = None
-    feets_num = 4
-    tail = None
+class PeriodicTable:
+    family_num = None
+    element_list = None
 
-    def eat_food(self):
-        print('oishii')
-
-    def scream(self):
-        print('AHHHHHH!!!!')
+    def show_status(self):
+        print(f'Family Num: {self.family_num}')
+        print(f'Family Num: {self.element_list}')
 
 
-class Dog(AnimalFourFeetsMammal):
-    def __init__(self, head):
-        self.head = head
-
-    def scream(self):
-        super().scream()
-        print('WanWan')
+class ElementFamily1(PeriodicTable):
+    def __init__(self):
+        self.family_num = 0
+        self.element_list = ['H', 'Li', 'Na', 'Ka', 'Ru', 'Cs', 'Fr']
 
 
-class Cat(AnimalFourFeetsMammal):
-    def __init__(self, head):
-        self.head = head
-
-    def scream(self):
-        super().scream()
-        print('MeowMeow')
+class ElementFamily18(PeriodicTable):
+    def __init__(self):
+        self.family_num = 18
+        self.element_list = ['He', 'Ne', 'Ar', 'Kr', 'Xe', 'Rn']
 
 
-dog = Dog('Dog head')
-print(dog.head)
-dog.scream()
-
-print()
-
-cat = Cat('Cat head')
-print(cat.head)
-cat.scream()
+ElementFamily1().show_status()
+ElementFamily18().show_status()
