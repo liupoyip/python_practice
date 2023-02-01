@@ -44,12 +44,12 @@
 
 ## Example 01: Inherent (繼承)
 請定義三個 class，分別為
-- `PeriodicTable`
-- `ElementFreeElectronic1`
-- `ElementFreeElectronic8`
+- `PeriodicTable` : 元素週期表
+- `ElementFamily1` : 第I族
+- `ElementFamily18` : 第XVIII族
 
-`ElementFreeElectronic1` 與 `ElementFreeElectronic8` 繼承自 `PeriodicTable`。
-`ElementFreeElectronic1` 與 `ElementFreeElectronic8` 可使用同樣的function，但輸出的參數不一樣。
+`ElementFamily1` 與 `ElementFamily18` 繼承自 `PeriodicTable`。
+`ElementFamily1` 與 `ElementFamily18` 可使用同樣的function，但輸出的參數不一樣。
 
 - basic propertis: 請參照元素週期表，設定初始值
   - `free_electronic: int`
