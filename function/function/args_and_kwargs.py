@@ -2,8 +2,8 @@ def mutilple_arguments(*args):
     print(args)
 
 
-def keywords_arguments(**kargs):
-    print(kargs)
+def keywords_arguments(**kwargs):
+    print(kwargs)
 
 
 mutilple_arguments(1, 2, 3, 4)
