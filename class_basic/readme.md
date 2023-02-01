@@ -6,7 +6,7 @@
 - propertis
   - drink_name: str
   - concentration: float (濃度)
-  - kcal: float
+  - kcal: **float**
   - ingredients: list[str,str,...]
   - bartending: bool
 
